@@ -1,7 +1,6 @@
 import java.io.PrintStream;
 import java.util.Objects;
 
-/** Console simulation; no external SMS service is called. */
 public class SmsNotifier implements CustomerNotifier {
     private final PrintStream output;
 

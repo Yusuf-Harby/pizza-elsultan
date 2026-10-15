@@ -8,7 +8,6 @@ public class PricingService {
 
     public PricingService() { this(20.0, 0.0); }
 
-    /** discountRate is a fraction between 0 and 1; discount applies to items only. */
     public PricingService(double deliveryFee, double discountRate) {
         this.deliveryFee = Validation.price(deliveryFee);
         if (!Double.isFinite(discountRate) || discountRate < 0 || discountRate > 1) {

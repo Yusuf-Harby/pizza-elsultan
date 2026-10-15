@@ -1,7 +1,6 @@
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-/** Dependency-free regression tests. Run with java -cp out OrderWorkflowTest. */
 public class OrderWorkflowTest {
     private static int checks;
 

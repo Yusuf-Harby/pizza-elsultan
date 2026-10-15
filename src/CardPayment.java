@@ -1,7 +1,6 @@
 import java.util.Objects;
 import java.util.function.BooleanSupplier;
 
-/** Simulated authorization only; this class does not charge a real card. */
 public class CardPayment implements PaymentMethod {
     private final BooleanSupplier authorization;
 
